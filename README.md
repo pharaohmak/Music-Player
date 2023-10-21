@@ -1,6 +1,6 @@
 # Music Player Web App with ReactJS
 
-This repository contains the source code for a tutorial on building a music player web app using ReactJS. The tutorial provides step-by-step instructions for building a responsive music player that allows users to browse and play songs from a collection.
+This repository contains the source code for a music player web app using ReactJS. The app is a responsive music player that allows users to browse and play songs from a collection.
 
 ## Features
 
@@ -23,7 +23,7 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository to your local machine using the following command:
 ```
-git clone https://github.com/your-username/music-player-web-app.git
+git clone https://github.com/pharaohmak/music-player-web-app.git
 ```
 2. Navigate to the project directory:
 ```
@@ -63,6 +63,6 @@ This music player web app is open source and available under the [MIT License](L
 
 ## Contact
 
-For any inquiries or questions, please contact the project owner at [youremail@example.com](mailto:youremail@example.com).
+For any inquiries or questions, please contact the project owner at [alchemist@sleepingpharaoh.com](mailto:alchemist@sleepingpharaoh.com).
 
 Thank you for your interest in the Music Player Web App with ReactJS tutorial!
