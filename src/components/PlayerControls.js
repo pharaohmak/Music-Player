@@ -1,5 +1,3 @@
-// PlayerControls.js
-
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -8,10 +6,11 @@ import {
   faForward,
   faBackward,
 } from "@fortawesome/free-solid-svg-icons";
+import { MusicPlayerControls } from "./PlayerControlsStyles";
 
 function PlayerControls(props) {
   return (
-    <div className="music-player--controls">
+    <MusicPlayerControls>
       <button className="skip-btn" onClick={() => props.SkipSong(false)}>
         <FontAwesomeIcon icon={faBackward} />
       </button>
@@ -24,7 +23,7 @@ function PlayerControls(props) {
       <button className="skip-btn" onClick={() => props.SkipSong()}>
         <FontAwesomeIcon icon={faForward} />
       </button>
-    </div>
+    </MusicPlayerControls>
   );
 }
 

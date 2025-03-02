@@ -1,23 +1,23 @@
-// PlayerDetails.js
-
 import React from "react";
+import {
+  DetailsImg,
+  ArtistInfo,
+  DetailsTitle,
+  DetailsArtist,
+  InfoSong,
+} from "./PlayerDetailsStyles";
 
-function PlayerDetails(props) {
+function PlayerDetails({ song }) {
   return (
     <div className="music-player--details">
-      <div className="details-img">
-        <img
-          className="details-img--image"
-          src={props.song.img_src}
-          alt={props.song.title}
-        />
-      </div>
-      <div class="range"></div>
-      <div className="artist-info">
-        <h3 className="details-title">{props.song.title}</h3>
-        <h4 className="details-artist">{props.song.artist}</h4>
-        <div class="line"></div>
-      </div>
+      <DetailsImg>
+        <img src={song.img_src} alt={song.title} />
+      </DetailsImg>
+      <ArtistInfo>
+        <DetailsTitle>{song.title}</DetailsTitle>
+        <DetailsArtist>{song.artist}</DetailsArtist>
+      </ArtistInfo>
+      <InfoSong>{song.album}</InfoSong>
     </div>
   );
 }
